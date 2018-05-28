@@ -3,8 +3,8 @@ const path = require('path');
 module.exports = {
     entry: './server.js',
     output: {
-        path: path.resolve(__dirname, './build'),
-        filename: 'server.js'
+        path: path.resolve(__dirname, './'),
+        filename: 'app.js'
     },
     target: 'node',
     module: {

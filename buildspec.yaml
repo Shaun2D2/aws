@@ -10,10 +10,10 @@ phases:
   build:
     commands:
       - npm run build
-  # post_build:
-  #   commands:
-  #     - echo Build completed on `date`
+  post_build:
+    commands:
+      - mv dist/app.js app.js
 artifacts:
   files:
-    - build/server.js
+    - app.js
     - package.json

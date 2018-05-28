@@ -1,12 +1,12 @@
 {
   "name": "aws",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "app:dev": "nodemon ./build/server.js",
     "build:watch": "webpack --mode=development --watch",
     "build": "webpack --mode=production",
-    "start": "node ./server.js"
+    "start": "node ./app.js"
   },
   "devDependencies": {
     "body-parser": "~1.17.1",
